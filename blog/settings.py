@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 
-SECRET_KEY = os.getenv('SECRET')
+#SECRET_KEY = os.getenv('SECRET')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'django-insecure-^gt@qz71!ur@5hlizdf9=bzqb@x1+&_pex0nafsr@vf=2dpar6'
+SECRET_KEY = 'django-insecure-^gt@qz71!ur@5hlizdf9=bzqb@x1+&_pex0nafsr@vf=2dpar6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
